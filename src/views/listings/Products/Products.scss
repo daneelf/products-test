@@ -1,0 +1,20 @@
+.products-container {
+  margin: 36px;
+}
+
+.product-link {
+  flex: 0 1 35%;
+  margin: 12px;
+}
+
+@media (min-width: 768px) {
+  .product-link {
+    flex: 0 1 25%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .product-link {
+    flex: 0 1 15%;
+  }
+}

@@ -1,0 +1,10 @@
+.navbar__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline !important;
+  width: 100%;
+  padding: 0 10px;
+  margin: 10px;
+  flex-wrap: wrap;
+}
