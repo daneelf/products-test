@@ -1,6 +1,6 @@
 import Categories from "./views/listings/Categories/Categories";
 import Products from "./views/listings/Products/Products";
-import Product from "./views/listings/Products/Product/Product";
+import Product from "./views/listings/Products/components/Product/Product";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";

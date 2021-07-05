@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { fetchProduct } from "../../../../api/api";
+import { fetchProduct } from "../../../../../api/api";
 import ProducsListItem from "../ProductsListItem/ProductsListItem";
-import "./Product.scss";
+
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
